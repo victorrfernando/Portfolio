@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/27b9c83134.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -27,13 +28,18 @@
 
       <!-- PERFIL -->
       <div class="inicio">
-        <img src="Imagens/Perfil.jpg" alt="Perfil">
+        <img src="assets/imagens/Perfil.jpg" alt="Perfil">
         <h2>Victor Fernando</h2>
         <h3>Desenvolvedor Iniciante</h3>
         <p>(Python, JavaScript, Git, HTML e CSS)</p>
-        <a href="https://drive.google.com/drive/my-drive?hl=pt-br" download>
-          <img src="/images/myw3schoolsimage.jpg" alt="Currículo" width="1333" height="12">
-        </a>
+          <a href="https://drive.google.com/file/d/1Ga8jbZIe94ip1kKIrM3zBD_3FmvKTeMs/preview" target="_blank" class="download">
+            <button id="buttonEffect"> 
+              <span>Currículo</span>
+              <div class="areaIcon">
+                  <i class="fas fa-arrow-down"></i>
+              </div>
+            </button>
+          </a>
       </div>
 
     </section>
@@ -41,26 +47,25 @@
 
   <!-- SIDEBAR -->
   <aside class="sidebar">
-    <img src="Imagens/Perfil.jpg" alt="Perfil">
-
+    <img src="assets/imagens/Perfil.jpg" alt="Perfil" class="imagemPerfil"> 
     <h3>Victor Fernando</h3>
-    <p>Dev Iniciante</p>
+    <p>Desenvolvedor Iniciante</p>
 
     <!-- Rede Social-->
     <div class="social">
       <a href="https://github.com/victorrfernando1337-collab" target="_blank">
-        <img src="/Imagens/github.png" alt="GitHub" class="icone">
+        <img src="/assets/imagens/github.png" alt="GitHub" class="icone">
         GitHub
       </a>
 
       <a href="https://www.linkedin.com/in/victorrfernando/" target="_blank">
-        <img src="/Imagens/linkedin.png" alt="LinkedIn" class="icone">
+        <img src="/assets/imagens/linkedin.png" alt="LinkedIn" class="icone">
         LinkedIn
       </a>
 
       <a href="https://wa.me/5519971347151?text=Olá%20Victor%2C%20gostaria%20de%20conversar%20com%20você"
         target="_blank" class="btn-whatsapp">
-        <img src="/Imagens/whatsapp.png" alt="WhatsApp" class="icone">
+        <img src="/assets/imagens/whatsapp.png" alt="WhatsApp" class="icone">
         WhatsApp
       </a>
     </div>
@@ -69,7 +74,7 @@
   <footer>
     <p>© 2026 Victor Fernando</p>
   </footer>
-
+<script src="./js/script.js"></script>
 </body>
 
 </html>
