@@ -1,23 +1,19 @@
-# Portfólio - Victor Fernando
+# Portfolio - Victor Fernando
 
-Projeto desenvolvido para apresentar meus conhecimentos em desenvolvimento web.
+A project developed to showcase my web development skills and knowledge.
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
+* HTML5
+* CSS3
+* JavaScript
 
-## 📌 Sobre o projeto
+## 📌 About the Project
 
-Este projeto tem como objetivo criar um portfólio pessoal contendo minhas informações, habilidades e projetos desenvolvidos durante meus estudos em Análise e Desenvolvimento de Sistemas.
+This project was created to build a personal portfolio that presents my background, technical skills, and the projects I have developed throughout my studies in Systems Analysis and Development.
 
-## 🎨 Funcionalidades
+## 🎨 Features
 
-- Página inicial personalizada
-- Seção sobre mim
-- Apresentação de projetos
-- Links para redes sociais
-- Layout responsivo
-
-## 📂 Estrutura do projeto
+* Customized home page
+* Social media links
+* Responsive layout
